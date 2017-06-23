@@ -108,7 +108,7 @@ export default {
       //   this.right = Math.sin(radian)
       // }
       let force = data.force ? data.force.toFixed(2) : 0
-      force = force / 3 * 15
+      force = force / 3 * 20
       force = force >= 10 ? 10 : force
       this.left = Math.ceil(force * this.left)
       this.right = Math.ceil(force * this.right)
